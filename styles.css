@@ -3,86 +3,85 @@
 body {
   color: #555;
   margin: 0;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-#header
-{
-  background-color: #1abc9c;
+#header {
+  background-color: cyan;
   height: 150px;
   line-height: 150px;
 }
-#header a{
-  color: white;
+#header a {
+  color: whitesmoke;
   text-decoration: none;
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-#header a:hover{
-  color: #222;
+#header a:hover {
+  color: black;
 }
-#header-title{
+#header-title {
   display: block;
   float: left;
 
   font-size: 20px;
   font-weight: bold;
   padding-left: 50px;
-  }
-#header-nav{
+}
+#header-nav {
   display: block;
   float: right;
   margin-top: 0;
   padding-right: 50px;
 }
-#header-nav li{
+#header-nav li {
   display: inline;
   padding-left: 20px;
 }
-.post-container{
+.post-container {
   max-width: 1000px;
   margin: 0 auto;
 }
-#footer{
+#footer {
   background-color: #2f2f2f;
   padding: 50px 50px;
 }
-.column{
+.column {
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
 }
-#footer h4{
+#footer h4 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-#footer p{
+#footer p {
   color: white;
 }
-a{
+a {
   color: #1abc9c;
   text-decoration: none;
 }
-a:hover{
-  color: #F6A623;
+a:hover {
+  color: #f6a623;
 }
-.post{
+.post {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
-.post-author img{
+.post-author img {
   width: 80px;
   height: 80px;
   vertical-align: middle;
   border-radius: 50%;
 }
-.post-author span{
+.post-author span {
   margin-left: 16px;
 }
-.post-date{
-  color: #D2D2D2;
+.post-date {
+  color: #d2d2d2;
 
   font-size: 14px;
   font-weight: bold;
@@ -90,23 +89,29 @@ a:hover{
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   color: #333;
 }
-p{
+p {
   line-height: 1.5;
 }
-.post, .about{
+.post,
+.about {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
-.about{text-align: center;}
-.about-author img{
+.about {
+  text-align: center;
+}
+.about-author img {
   border-radius: 50%;
   width: 140px;
   height: 140px;
 }
-.post-container:nth-child(even){
-  background-color: #f2f2f2;
+.post-container:nth-child(even) {
+  background-color: white;
 }
