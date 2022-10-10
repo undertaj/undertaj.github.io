@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?
   family=Montserrat:400,700);
 body {
-  color: #555;
+  color: rgb(71, 70, 70);
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 #header {
-  background-color: cyan;
+  background-color: rgb(31, 216, 216);
   height: 150px;
   line-height: 150px;
 }
@@ -18,7 +18,7 @@ body {
   letter-spacing: 0.1em;
 }
 #header a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 #header-title {
   display: block;
